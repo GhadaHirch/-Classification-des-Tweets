@@ -1,4 +1,4 @@
-# -Classification-des-Tweets (NLP, Kmeans, Python) 
+# Classification-des-Tweets (NLP, Kmeans, Python) 
 
 ## DESCRIPTION:
 • Maitriser l’API de twitter pour l’extraction des tweets<br/>
@@ -36,11 +36,12 @@ Maintenant que nous sommes prêts avec les informations d'identification Twitter
 > Go to the [Extracting twitter data (tweepy + pandas)](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Extract_Tweets.ipynb)<br>
 
 ## 2. Tweets Classification and clustering (Kmeans)<br/>
-### Data Set:
-### Preprocessing:
-### Tweets Classification:
-### Clustered Data Frame:
-### KMeans Clustering:
+### Data Set:<br/>
+Nous avons utilisés notre DataSet[Tweets]()
+### Preprocessing:<br/>
+### Tweets Classification:<br/>
+### Clustered Data Frame:<br/>
+### KMeans Clustering:<br/>
 
 > Go to the []()
 
