@@ -30,12 +30,17 @@ Tout d'abord, nous devons créer un compte Twitter et obtenir les informations d
 * Si vous avez déjà des applications, connectez-vous sur https://apps.twitter.com/ avec votre nom d'utilisateur et votre mot de passe Twitter.Puis accédez à Demander un compte développeur.<br/>
 * Si vous n'avez pas d'applications, accédez à demander un compte développeur en connectant sur [How to apply for a Twitter Developer account](https://www.extly.com/docs/autotweetng_joocial/tutorials/how-to-auto-post-from-joomla-to-twitter/apply-for-a-twitter-developer-account/#apply-for-a-developer-account)<br/>
 ### Get the needed Keys:
-Allez dans l'onglet Clés API, nous y trouverons notre clé Consumer et nos clés secrètes Consumer.
+Allez dans l'onglet Clés API, nous y trouverons notre clé Consumer et nos clés secrètes Consumer.<br/>
 ## Step 2 — How do we connect to the Twitter API<br/>
-Maintenant que nous sommes prêts avec les informations d'identification Twitter requises, passons à l'étape suivante, qui est l'extraction des données . Nous utilisons la bibliothèque tweepy pour extraire les tweets. Si vous ne disposez pas de cette bibliothèque, vous pouvez l'installer en utilisant pip install tweepy dans votre invite de commande.
+Maintenant que nous sommes prêts avec les informations d'identification Twitter requises, passons à l'étape suivante, qui est l'extraction des données . Nous utilisons la bibliothèque tweepy pour extraire les tweets. Si vous ne disposez pas de cette bibliothèque, vous pouvez l'installer en utilisant pip install tweepy dans votre invite de commande.<br/>
 [Extracting twitter data (tweepy + pandas)](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Extract_Tweets.ipynb)<br>
 
-# 2. Tweets Classification 
+# 2. Tweets Classification and clustering (Kmeans)<br/>
+## Data Set:
+## Preprocessing:
+## Tweets Classification:
+## Clustered Data Frame:
+## KMeans Clustering:
 
 > Go back to the [README](https://github.com/RodolfoFerro/pandas_twitter/blob/master/README.md)<br>
 > Go next to [1. Extracting twitter data (tweepy + pandas)](https://github.com/RodolfoFerro/pandas_twitter/blob/master/01-extracting-data.md)<br>
