@@ -23,8 +23,12 @@ Maintenant, toutes ces bibliothèques sont installées depuis: !pip install <nom
 
 **Now that we have all the requirements, let's get started!**
 
-# 1. Extracting twitter data (tweepy + pandas)
+# 1. Extracting twitter data (tweepy + pandas)<br/>
+## Step 1 — How do we get a Twitter Consumer Key and Consumer Secret key?<br/>
+Tout d'abord, nous devons créer un compte Twitter et obtenir les informations d'identification nécessaires sur la plateforme de développement Twitter pour accéder à l'API Twitter en suivant ces étapes:<br/>
+* Si vous n'avez pas d'applications, connectez-vous sur (https://developer.twitter.com/) avec votre nom d'utilisateur et votre mot de passe Twitter. Accédez à Demander un compte développeur .
+## Step 2 — How do we connect to the Twitter API<br/>
 
-
+# 2. Tweets Classification 
 > Go back to the [README](https://github.com/RodolfoFerro/pandas_twitter/blob/master/README.md)<br>
 > Go next to [1. Extracting twitter data (tweepy + pandas)](https://github.com/RodolfoFerro/pandas_twitter/blob/master/01-extracting-data.md)<br>
