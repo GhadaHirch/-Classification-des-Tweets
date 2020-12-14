@@ -9,7 +9,7 @@
 
 # 0. Prerequisite: What will we need?
 Tout d'abord, nous avons besoins depréparer l'environnement du travail.
-* [ANACONDA For windows][ANACONDA] 
+* [ANACONDA For windows](https://www.anaconda.com/products/individual)
 
 The requirements that we'll need to install are:
 * [NumPy](http://www.numpy.org/): This is the fundamental package for scientific computing with Python. Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data.
