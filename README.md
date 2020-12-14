@@ -8,9 +8,8 @@
 être considérée comme une étape 
 
 # 0. Prerequisite: What will we need?
-
-First of all, we need to have [Python](https://www.python.org/downloads/) installed.
-I'm almost sure that all the code will run in Python 2.7, but I'll use Python 3.6. I highly recommend to install [Anaconda](https://www.anaconda.com/download/), which is a very useful Python distribution to manage packages that includes a lot of useful tools, such as [Jupyter Notebooks](http://jupyter.org/). I'll explain the code supposing that we will be using a Jupyter Notebook, but the code will run if you are programming a simple script from your text editor. You'll just need to adapt it (it's not hard).
+Tout d'abord, nous avons besoins depréparer l'environnement du travail.
+* [ANACONDA For windows][ANACONDA] 
 
 The requirements that we'll need to install are:
 * [NumPy](http://www.numpy.org/): This is the fundamental package for scientific computing with Python. Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data.
