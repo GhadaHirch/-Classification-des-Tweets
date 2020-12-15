@@ -64,4 +64,5 @@ Nous souhaitons créer une Dataframe contenant le nombre total de tweets par cat
 Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets.<br/>
 >##### Après avoir classé les tweets, les sommes sont effectuées dans les catégories par tweet, puis le clustering K Means entre en jeu.
 ### 2.5. KMeans Clustering:<br/>
+La méthode de clustering k-means est une technique d'apprentissage automatique non supervisée utilisée pour identifier des clusters d'objets de données dans un ensemble de données.<br/>
 >Go to the []()
