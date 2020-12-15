@@ -38,7 +38,8 @@ Maintenant que nous sommes prêts avec les informations d'identification Twitter
 ### Data Set:<br/>
 Une rapide inspection de la DataSet []() nous permet de voir que la compréhension de certains tweets est difficile même pour des êtres-humains. Le nettoyage sera d’autant plus important.
 ### Preprocessing:<br/>
-Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés.Pour cela, on va utiliser NLP.
+#### Cleanning Tweets(text):<br/>
+Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés.Pour cela, on va utiliser NLP.<br/>
 En NLP, on commence toujours par construire un pipeline de nettoyage des données "clean_text". Personnellement j’utilise les Reg-ex avec le module Python re qui permettent de faire cela facilement.<br/>
 Le nettoyage des tweets comprendra plusieurs choses :<br/>
 * Enlever les emojis.<br/>
@@ -46,7 +47,15 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 * Retirer les caractères spéciaux : très facile avec les reg-ex mais tous les caractères ne seront pas retirés dans un premier temps. Les tweets sont des objets très sales !<br/>
 * Retirer les chiffres et l'url(http): avec une Reg-ex aussi<br/>
 * Changer les lettres majuscules en minuscules: pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents.<br/>
->##### Ce pipeline nous permet d’avoir des tweets à peu prés propres. 
+>##### Ce pipeline nous permet d’avoir des tweets à peu prés propres.<br/>
+#### Tokenization, Lemmatization and removing stopwords:<br/>
+>* stopwords:<br/>
+>Les mots vides sont des mots couramment utilisés dont la présence dans une phrase a moins de poids que d'autres mots. Ils incluent des mots comme «et», «ou», «a».<br/>
+>* Tokenization:<br/>
+>La tokenisation est le processus de division d'une chaîne en une liste de jetons. Une phrase peut être réduite en mots et un mot peut être réduit en lettres à l'aide des 
+tokenizers appropriés.<br/>
+>* Lemmatization:<br/>
+>La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».<br/>
 ### Tweets Classification:<br/>
 Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
 Les tweets sont chacun comparés aux 4 séries et attribués à un score de similitude. Il existe la similitude Jaccard pour calculer le score de similarité entre les tweets.<br/>
