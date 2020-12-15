@@ -37,8 +37,21 @@ Maintenant que nous sommes prêts avec les informations d'identification Twitter
 
 ## 2. Tweets Classification and clustering (Kmeans)<br/>
 ### Data Set:<br/>
-Nous avons utilisés notre DataSet[Tweets]()
+Une rapide inspection de la DataSet []() nous permet de voir que la compréhension de certains tweets est difficile même pour des êtres-humains. Le nettoyage sera d’autant plus important.
 ### Preprocessing:<br/>
+En NLP, on commence toujours par construire un pipeline de nettoyage des données "clean_text". Personnellement j’utilise les Reg-ex avec le module Python re qui permettent de faire cela facilement.<br/>
+Le nettoyage des tweets comprendra plusieurs choses :<br/>
+* Enlever les emojis.<br/>
+* Retirer la ponctuation : très facile avec les reg-ex<br/>
+* Retirer les caractères spéciaux : très facile avec les reg-ex mais tous les caractères ne seront pas retirés dans un premier temps. Les tweets sont des objets très sales !<br/>
+* Retirer les chiffres et l'url(http): avec une Reg-ex aussi<br/>
+* Changer les lettres majuscules en minuscules: pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents.<br/>
+>##### Ce pipeline nous permet d’avoir des tweets à peu prés propres. 
+
+
+
+Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés. Tous les textes sont convertis en minuscules pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents.
+Puis, nous avons utilisé NLP
 ### Tweets Classification:<br/>
 ### Clustered Data Frame:<br/>
 ### KMeans Clustering:<br/>
