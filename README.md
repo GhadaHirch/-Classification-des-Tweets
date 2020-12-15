@@ -35,9 +35,9 @@ Maintenant que nous sommes prêts avec les informations d'identification Twitter
 > Go to the [Extracting twitter data (tweepy + pandas)](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Extract_Tweets.ipynb)<br>
 
 ## 2. Tweets Classification and clustering (Kmeans)<br/>
-### Data Set:<br/>
+### 2.1. Data Set:<br/>
 Une rapide inspection de la DataSet []() nous permet de voir que la compréhension de certains tweets est difficile même pour des êtres-humains. Le nettoyage sera d’autant plus important.
-### Preprocessing:<br/>
+### 2.2. Preprocessing:<br/>
 #### Cleanning Tweets(text):<br/>
 Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés.Pour cela, on va utiliser NLP.<br/>
 En NLP, on commence toujours par construire un pipeline de nettoyage des données "clean_text". Personnellement j’utilise les Reg-ex avec le module Python re qui permettent de faire cela facilement.<br/>
@@ -56,12 +56,12 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 tokenizers appropriés.<br/>
 >* Lemmatization:<br/>
 >La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».<br/>
-### Tweets Classification:<br/>
+### 2.3. Tweets Classification:<br/>
 Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
 Les tweets sont chacun comparés aux 4 séries et attribués à un score de similitude. Il existe la similitude Jaccard pour calculer le score de similarité entre les tweets.<br/>
-### Clustered Data Frame:<br/>
+### 2.4. Clustered Data Frame:<br/>
 Nous souhaitons créer une Dataframe contenant le nombre total de tweets par catégorie.<br/>
 Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets.<br/>
 >##### Après avoir classé les tweets, les sommes sont effectuées dans les catégories par tweet, puis le clustering K Means entre en jeu.
-### KMeans Clustering:<br/>
+### 2.5. KMeans Clustering:<br/>
 >Go to the []()
