@@ -39,6 +39,7 @@ Maintenant que nous sommes prêts avec les informations d'identification Twitter
 ### Data Set:<br/>
 Une rapide inspection de la DataSet []() nous permet de voir que la compréhension de certains tweets est difficile même pour des êtres-humains. Le nettoyage sera d’autant plus important.
 ### Preprocessing:<br/>
+Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés.Pour cela, on va utiliser NLP.
 En NLP, on commence toujours par construire un pipeline de nettoyage des données "clean_text". Personnellement j’utilise les Reg-ex avec le module Python re qui permettent de faire cela facilement.<br/>
 Le nettoyage des tweets comprendra plusieurs choses :<br/>
 * Enlever les emojis.<br/>
@@ -50,8 +51,7 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 
 
 
-Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés. Tous les textes sont convertis en minuscules pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents.
-Puis, nous avons utilisé NLP
+
 ### Tweets Classification:<br/>
 ### Clustered Data Frame:<br/>
 ### KMeans Clustering:<br/>
