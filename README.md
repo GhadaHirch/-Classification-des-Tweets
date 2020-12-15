@@ -8,10 +8,10 @@
 être considérée comme une étape 
 
 ## 0. Prerequisite: What will we need?
-### 1. Environnement:<br/>
+* ### Environnement:<br/>
 Tout d'abord, nous avons besoins de préparer l'environnement du travail.
 * [ANACONDA For windows](https://www.anaconda.com/products/individual)
-### 2. Needed libraries:<br/>
+* ### Needed libraries:<br/>
 Les exigences que nous devrons installer sont:<br/>
 * [NumPy](http://www.numpy.org/): NumPy est une bibliothèque Python utilisée pour travailler avec des tableaux.
 Il a également des fonctions pour travailler dans le domaine de l'algèbre linéaire, de la transformée de Fourier et des matrices.
@@ -49,7 +49,7 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 * Changer les lettres majuscules en minuscules: pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents.<br/>
 >##### Ce pipeline nous permet d’avoir des tweets à peu prés propres. 
 ### Tweets Classification:<br/>
-Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés en toute confiance comme appartenant à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
+Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
 Les tweets sont chacun comparés aux 4 séries et attribués à un score de similitude. Il existe la similitude Jaccard pour calculer le score de similarité entre les tweets.<br/>
 ### Clustered Data Frame:<br/>
 ### KMeans Clustering:<br/>
