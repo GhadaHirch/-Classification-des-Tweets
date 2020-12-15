@@ -65,4 +65,4 @@ Cela peut être réalisé d'abord en créant un bloc de données contenant les s
 >##### Après avoir classé les tweets, les sommes sont effectuées dans les catégories par tweet, puis le clustering K Means entre en jeu.
 ### 2.5. KMeans Clustering:<br/>
 La méthode de clustering k-means est une technique d'apprentissage automatique non supervisée utilisée pour identifier des clusters d'objets de données dans un ensemble de données.<br/>
->Go to the []()
+>Go to the [Tweets_Classif](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Tweets_Classif.ipynb)
