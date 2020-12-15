@@ -1,12 +1,11 @@
 # Classification-des-Tweets (NLP, Kmeans, Python) 
 
 ## DESCRIPTION:
-• Maitriser l’API de twitter pour l’extraction des tweets<br/>
+Dans ce workshop, nous allons:
+• Utiliser l’API de twitter pour l’extraction des tweets à l'aide de tweepy et apprenez à les gérer à l'aide de pandas.<br/>
 • Maitriser la partie NLP (natural language processing) avec NLTK en Python<br/>
 • Appliquer les principes de nettoyage des données<br/>
-• Classer les tweets : regrouper ensemble les tweets qui sont similaires. C’est une étape qui peut
-être considérée comme une étape 
-
+• Classer les tweets : regrouper ensemble les tweets qui sont similaires.<br/>
 ## 0. Prerequisite: What will we need?
 * ### Environnement:<br/>
 Tout d'abord, nous avons besoins de préparer l'environnement du travail.
