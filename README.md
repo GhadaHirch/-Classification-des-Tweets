@@ -48,11 +48,9 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 * Retirer les chiffres et l'url(http): avec une Reg-ex aussi<br/>
 * Changer les lettres majuscules en minuscules: pour éviter que les algorithmes n'interprètent les mêmes mots avec des cas différents comme différents.<br/>
 >##### Ce pipeline nous permet d’avoir des tweets à peu prés propres. 
-
-
-
-
 ### Tweets Classification:<br/>
+Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés en toute confiance comme appartenant à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
+Les tweets sont chacun comparés aux 4 séries et attribués à un score de similitude. Il existe la similitude Jaccard pour calculer le score de similarité entre les tweets.<br/>
 ### Clustered Data Frame:<br/>
 ### KMeans Clustering:<br/>
 
