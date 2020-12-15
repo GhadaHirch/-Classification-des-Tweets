@@ -10,7 +10,7 @@
 ## 0. Prerequisite: What will we need?
 * ### Environnement:<br/>
 Tout d'abord, nous avons besoins de préparer l'environnement du travail.
-* [ANACONDA For windows](https://www.anaconda.com/products/individual)
+[ANACONDA For windows](https://www.anaconda.com/products/individual)
 * ### Needed libraries:<br/>
 Les exigences que nous devrons installer sont:<br/>
 * [NumPy](http://www.numpy.org/): NumPy est une bibliothèque Python utilisée pour travailler avec des tableaux.
