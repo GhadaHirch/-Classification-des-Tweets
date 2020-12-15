@@ -51,7 +51,8 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
 Les tweets sont chacun comparés aux 4 séries et attribués à un score de similitude. Il existe la similitude Jaccard pour calculer le score de similarité entre les tweets.<br/>
 ### Clustered Data Frame:<br/>
+Nous souhaitons créer une Dataframe contenant le nombre total de tweets par catégorie.<br/>
+Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets.<br/>
+>##### Après avoir classé les tweets, les sommes sont effectuées dans les catégories par tweet, puis le clustering K Means entre en jeu.
 ### KMeans Clustering:<br/>
-
-> Go to the []()
-
+>Go to the []()
