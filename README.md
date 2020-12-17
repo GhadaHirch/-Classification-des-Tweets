@@ -56,7 +56,7 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 tokenizers appropriés.<br/>
 >* Lemmatization:<br/>
 >La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».<br/>
- <center> ![Alt Text](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Data_Processing.gif) </center><br/>
+![Alt Text](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Data_Processing.gif)<br/>
 ### 2.3. Tweets Classification:<br/>
 Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
 Les tweets sont chacun comparés aux 4 séries et attribués à un score de similitude. Il existe la similitude Jaccard pour calculer le score de similarité entre les tweets.<br/>
