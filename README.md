@@ -56,7 +56,7 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 tokenizers appropriés.<br/>
 >* Lemmatization:<br/>
 >La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».<br/>
-<br/>
+
 ![Alt Text](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/DataProcessing.gif)<br/>
 ### 2.3. Tweets Classification:<br/>
 Cette approche utilise la technique de création d'un ensemble de mots qui peuvent être classés à une catégorie particulière pour chacune des 4 classes. (economic, social, culture et health)<br/>
