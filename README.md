@@ -36,7 +36,7 @@ Maintenant que nous sommes prêts avec les informations d'identification Twitter
 
 ## 2. Tweets Classification and clustering (Kmeans)<br/>
 ### 2.1. Data Set:<br/>
-Une rapide inspection de la DataSet []() nous permet de voir que la compréhension de certains tweets est difficile même pour des êtres-humains. Le nettoyage sera d’autant plus important.
+Une rapide inspection de la DataSet []() nous permet de voir que la compréhension de certains tweets est difficile. Le nettoyage sera d’autant plus important.
 ### 2.2. Preprocessing:<br/>
 #### Cleanning Tweets(text):<br/>
 Les tweets contiennent des objets inutiles tels que des hashtags, des mentions, des liens et des signes de ponctuation qui peuvent affecter les performances d'un algorithme et doivent donc être supprimés.Pour cela, on va utiliser NLP.<br/>
