@@ -70,10 +70,9 @@ Nous souhaitons créer une Dataframe contenant le nombre total de tweets par cat
 Cela peut être réalisé d'abord en créant un bloc de données contenant les scores Jaccard pour chaque tweet pour chaque catégorie, puis en attribuant un tweet à une catégorie en fonction du score le plus élevé et enfin en regroupant les tweets.<br/>
 >##### Après avoir classé les tweets, les sommes sont effectuées dans les catégories par tweet, puis le clustering K Means entre en jeu.
 ### 2.5. KMeans Clustering:<br/>
-La méthode de clustering k-means est une technique d'apprentissage automatique non supervisée utilisée pour identifier des clusters d'objets de données dans un ensemble de données.<br/>
-K-Means est un algorithme d'apprentissage automatique non supervisé qui regroupe les données en k nombre de clusters. Le nombre de clusters est défini par l'utilisateur et l'algorithme essaiera de regrouper les données.<br/>
-Par conséquent, nous devons trouver une technique qui nous aidera d'une manière ou d'une autre à décider du nombre de clusters à utiliser pour le modèle K-Means.<br/>
-La méthode Elbow est une technique très populaire et l'idée est d'exécuter un clustering k-means pour une plage de clusters k (disons de 1 à 10) et pour chaque valeur, nous calculons la somme des distances au carré de chaque point à son centre assigné (distorsions).
-Lorsque les distorsions sont tracées et que le tracé ressemble à un bras, le «coude» (le point d'inflexion sur la courbe) est la meilleure valeur de k.
+K-Means est un algorithme d'apprentissage automatique non supervisé qui regroupe les données en k nombre de clusters.<br/>
+On peut utiliser la méthode Elbow pour préciser le nombre de clusters (k).<br/>
+>La méthode Elbow est une technique très populaire et l'idée est d'exécuter un clustering k-means pour une plage de clusters k (disons de 1 à 10) et pour chaque valeur, nous calculons la somme des distances au carré de chaque point à son centre assigné (distorsions).Lorsque les distorsions sont tracées et que le tracé ressemble à un bras, le «coude» (le point d'inflexion sur la courbe) est la meilleure valeur de k.<br/>
+
 ![Alt Text](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/k-means.gif)<br/>
 >Go to the [Tweets Classification](https://github.com/GhadaHirch/-Classification-des-Tweets/blob/master/Tweets_Classif.ipynb)
