@@ -52,8 +52,12 @@ Le nettoyage des tweets comprendra plusieurs choses :<br/>
 >* stopwords:<br/>
 >Les mots vides sont des mots couramment utilisés dont la présence dans une phrase a moins de poids que d'autres mots. Ils incluent des mots comme «et», «ou», «a».<br/>
 >* Tokenization:<br/>
->La tokenisation est le processus de division d'une chaîne en une liste de jetons. Une phrase peut être réduite en mots et un mot peut être réduit en lettres à l'aide des 
-tokenizers appropriés.<br/>
+>La tokenisation est le processus de division d'une chaîne en une liste de jetons(les jetons peuvent être des mots, des caractères ou des sous-mots).Une phrase peut être réduite en mots et un mot peut être réduit en lettres à l'aide des tokenizers appropriés.<br/>
+Par exemple, considérez la phrase: «Never give up».<br/>
+La manière la plus courante de former des jetons est basée sur l'espace.En supposant que l'espace est un délimiteur,la tokenisation de la phrase se traduit par 3 jetons Never-give-up.Comme chaque jeton est un mot, il devient un exemple de tokenisation Word.<br/>
+De même, les jetons peuvent être des caractères ou des sous-mots.Par exemple, considérons «smarter»:<br/>
+1. Jetons de personnage: s-m-a-r-t-e-r<br/>
+2. Jetons de sous-mot: smart-er<br/>
 >* Lemmatization:<br/>
 >La lemmatisation réduit un mot à sa forme racine. Par exemple, la forme de racine des « roches » est « roche ».<br/>
 
