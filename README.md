@@ -26,7 +26,7 @@ Maintenant, toutes ces bibliothèques sont installées depuis: !pip install <nom
 ### Step 1 — How do we get a Twitter Api Key, Api Secret Key, Consumer Key and Consumer Secret key?<br/>
 Tout d'abord, nous devons créer un compte Twitter et obtenir les informations d'identification nécessaires sur la plateforme de développement Twitter pour accéder à l'API Twitter en suivant ces étapes:<br/>
 #### Apply for a Developer Account:
-* Si vous avez déjà des applications, connectez-vous sur https://apps.twitter.com/ avec votre nom d'utilisateur et votre mot de passe Twitter.Puis accédez à Demander un compte développeur.<br/>
+* Si vous avez déjà des applications, connectez-vous sur https://apps.twitter.com/ avec votre nom d'utilisateur et votre mot de passe Twitter.<br/>
 * Si vous n'avez pas d'applications, accédez à demander un compte développeur en connectant sur [How to apply for a Twitter Developer account](https://www.extly.com/docs/autotweetng_joocial/tutorials/how-to-auto-post-from-joomla-to-twitter/apply-for-a-twitter-developer-account/#apply-for-a-developer-account)<br/>
 #### Get the needed Keys:
 Allez dans l'onglet Clés API, nous y trouverons notres clés.<br/>
